@@ -1,0 +1,30 @@
+{
+  "name": "cse-341-contacts",
+  "version": "1.0.0",
+  "description": "Week 1 - 2 Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvalto/cse-341-contacts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fvalto/cse-341-contacts/issues"
+  },
+  "homepage": "https://github.com/fvalto/cse-341-contacts#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
