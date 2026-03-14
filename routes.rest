@@ -1,0 +1,32 @@
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get a contact by ID
+GET http://localhost:3000/contacts/69ab891cfc4518d9039a9d5b
+
+### Create a new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Fabrizzio",
+    "lastName": "Ausensi",
+    "email": "fabrizzio@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "11/22/1993"
+}
+
+### Update a contact by ID
+PUT http://localhost:3000/contacts/69b5edf613994976886d0984
+Content-Type: application/json
+
+{
+    "firstName": "Fabrizzio",
+    "lastName": "Ausensi",
+    "email": "fabrizzio_ausensi@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "11/22/1993"
+}
+
+### Delete a contact by ID
+DELETE http://localhost:3000/contacts/69b5edf613994976886d0984
