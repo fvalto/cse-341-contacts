@@ -5,7 +5,7 @@
     "description": "Week 1-2 API: CRUD Contacts",
     "version": "1.0.0"
   },
-  "host": "https://cse-341-contacts-rzmj.onrender.com",
+  "host": "cse-341-contacts-rzmj.onrender.com",
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
